@@ -9,7 +9,7 @@ const HomePage = () => {
             <header className="hero">
                 <h1 className="hero-text">
                     Hi, I am 
-                    <span>Juhee</span>
+                    <span> Juhee</span>
                 </h1>
                 <p className="h-sub-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
