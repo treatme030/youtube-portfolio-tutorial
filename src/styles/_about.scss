@@ -70,3 +70,33 @@
     display: flex;
     gap: 2rem;
 }
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 6rem 0 4rem;
+    .btn-port {
+        padding: 0.6rem 2rem;
+        background-color: #0381ff5b;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: inherit;
+        font-family: inherit;
+        color: white;
+        transition: all .3s ease-in-out;
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+        &:hover {
+            background-color: #037fff;
+        }
+        &:active {
+            background-color: #037fff;
+        }
+        &:focus {
+            background-color: #037fff;
+        }
+    }
+}
