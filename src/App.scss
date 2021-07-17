@@ -38,3 +38,9 @@ body {
 span {
     color: #037FFF;
 }
+
+@media screen and (max-width: 1000px){
+   html {
+       font-size: 70%;
+   }
+}
